@@ -1,0 +1,33 @@
+
+@media only screen and (max-width:700px) {
+    .hero__img {
+        display: none;
+
+    }
+
+    .hero__img-position {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .trip {
+        flex-direction: column;
+    }
+
+    .trip__left {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+
+    .trip__comment {
+        flex-direction: column;
+    }
+
+    .trip__comment-text {
+        max-width: 500px;
+    }
+    .trip__google{
+        width: 45vh;
+    }
+}

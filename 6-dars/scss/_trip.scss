@@ -1,0 +1,40 @@
+.trip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+    &__comment {
+        display: flex;
+        gap: 20px;
+
+        max-width: 890px;
+
+        margin-bottom: 20px;
+
+        padding-bottom: 20px;
+        border-bottom: 1px solid #00000060;
+    }
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    &__comment-name {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__comment-text {
+        max-width: 540px;
+    }
+    &__google img{
+        width: 100%;
+    }
+    
+
+
+}
